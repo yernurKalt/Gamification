@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assassin's Creed II - Персонаж</title>
+  <link rel="stylesheet" href="/static/css/eachCharacter.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Assassin's Creed II</h1>
+      <h2>Архивы ренессанса</h2>
+    </header>
+
+    <nav>
+      <a href="/" class="nav-button">Главная</a>
+      <a href="/characters" class="nav-button">Назад к персонажам</a>
+    </nav>
+
+    <div class="content-section" id="characterDetails">
+      <div class="character-container">
+        <div class="character-image">
+          <img id="characterImage" src="" alt="Изображение персонажа">
+        </div>
+        <div class="character-info">
+          <h1 class="character-name" id="characterFullName"></h1>
+          <h2 class="character-russian-name" id="characterRussianName"></h2>
+          <div class="character-age" id="characterAge"></div>
+          <div class="character-history" id="characterHistory"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="not-found" id="characterNotFound" style="display: none;">
+      <h2>Персонаж не найден в архивах Анимуса</h2>
+      <p>Синхронизация с данным фрагментом памяти невозможна.</p>
+    </div>
+
+    <footer>
+      <p>Ничто не истинно, все дозволено</p>
+      <p>© 2025 Animus Project</p>
+    </footer>
+  </div>
+
+  <script src="/static/js/eachCharacter.js"></script>
+</body>
+
+</html>
